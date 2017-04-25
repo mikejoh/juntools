@@ -14,6 +14,9 @@ from juntools import jViz
 
 viz = jViz("juniper-config-file.xml", verbose=True)
 
+zone = "my-security-zone"
+direction = "destination" # If direction is destination then the graphs will contain all policies destined for my-security-zone
+
 viz.parse_conf('<policies>','</policies>')
 policies, zones = viz.getpolicies()
 viz.create_graph(zone,direction,gdir='/root/bin/gviz/')
