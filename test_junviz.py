@@ -3,8 +3,8 @@
 import sys
 from juntools import jViz
 
-zone 		= sys.argv[1]
-direction 	= sys.argv[2]
+zone 		= "my-security-zone"
+direction 	= "destination"
 
 viz = jViz('juniperconf_xml_2012_07_26.txt',verbose=True)
 
