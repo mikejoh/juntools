@@ -4,8 +4,8 @@ A script that parses an Juniper SRX FW configuration (in XML format) and via Dot
 I created this project back in 2012 when Juniper didn't have a good MGMT tool (pre-Space) and i wanted a way to visualize a pretty complicated setup in regards to security/NAT policies and security zones.
 
 Required Python modules:
-* pydot (and Graphviz binaries)
-* BeautifulSoup (the one used in this case is pre-bs4)
+* `pydot` (and Graphviz binaries)
+* `BeautifulSoup` (the one used in this case is pre-bs4)
 
 ### Example
 
